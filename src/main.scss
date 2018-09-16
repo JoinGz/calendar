@@ -1,0 +1,36 @@
+body,
+ul,
+li {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#gzCalendar {
+  width: 500px;
+  text-align: center;
+  user-select: none;
+  .select {
+    color: green;
+    background: #ccc;
+  }
+
+  li {
+    list-style: none;
+    color: #9a9a9a;
+    float: left;
+    width: 71.4px;
+  }
+
+  .isCurrent {
+    color: #333;
+  }
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
